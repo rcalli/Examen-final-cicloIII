@@ -194,28 +194,28 @@
                 <li class="sidebar-menu-item has-dropdown">
                     <a href="#">
                         <i class="ri-shopping-cart-2-line sidebar-menu-item-icon"></i>
-                        Alumnos
+                        eCommerce
                         <i class="ri-arrow-down-s-line sidebar-menu-item-accordion ms-auto"></i>
                     </a>
                     <ul class="sidebar-dropdown-menu">
                         <li class="sidebar-dropdown-menu-item">
-                            <a href="views/crear.jsp">
-                                Crear
+                            <a href="#">
+                                Shop
                             </a>
                         </li>
                         <li class="sidebar-dropdown-menu-item">
-                            <a href="views/listar.jsp">
-                                Listar
+                            <a href="#">
+                                Checkout
                             </a>
                         </li>
                         <li class="sidebar-dropdown-menu-item">
-                            <a href="views/editar.jsp">
-                                Editar
+                            <a href="#">
+                                Details
                             </a>
                         </li>
                         <li class="sidebar-dropdown-menu-item">
-                            <a href="views/eliminar.jsp">
-                                Eliminar
+                            <a href="#">
+                                Wishlist
                             </a>
                         </li>
                     </ul>
@@ -364,30 +364,7 @@
                         </div>
                     </div>
                     <!-- end: Summary -->
-                    <!-- start: Graph -->
-                    <div class="row g-3 mt-2">
-                        <div class="col-12 col-md-7 col-xl-8">
-                            <div class="card border-0 shadow-sm h-100">
-                                <div class="card-header bg-white">
-                                    Sales
-                                </div>
-                                <div class="card-body">
-                                    <canvas id="sales-chart"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-5 col-xl-4">
-                            <div class="card border-0 shadow-sm h-100">
-                                <div class="card-header bg-white">
-                                    Visitors
-                                </div>
-                                <div class="card-body">
-                                    <canvas id="visitors-chart"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end: Graph -->
+                   
                 </div>
                 <!-- end: Content -->
             </div>

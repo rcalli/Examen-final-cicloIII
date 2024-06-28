@@ -54,7 +54,7 @@ private Connection cx= null;
     @Override
     public List<UsuariLogin> login(String username, String clave) {
         List<UsuariLogin> lista = new ArrayList<>();
-        String SQL = "SELECT u.idusuario, u.username, e.sexo, r.nombre as rol, p.nombre, p.url, p.icono FROM usuario u " +
+        String SQL = "SELECT u.idusuario, u.username, r.nombre as rol, p.nombre, p.url, p.icono FROM usuario u " +
                      "inner join empleado e on u.idempleado = e.idempleado " +
                      "inner join rol r on u.idrol=r.idrol " +
                      "inner join rol_privilegios rp on r.idrol = rp.idrol " +
@@ -71,7 +71,6 @@ private Connection cx= null;
                 login.setIdusuario(rs.getInt("idusuario"));
                 login.setUsername(rs.getString("username"));
                 login.setRol(rs.getString("rol"));
-                login.setSexo(rs.getString("sexo"));
                 login.setNombrep(rs.getString("nombre"));
                 login.setUrl(rs.getString("url"));
                 login.setIcono(rs.getString("icono"));

@@ -194,28 +194,28 @@
                 <li class="sidebar-menu-item has-dropdown">
                     <a href="#">
                         <i class="ri-shopping-cart-2-line sidebar-menu-item-icon"></i>
-                        Alumnos
+                        eCommerce
                         <i class="ri-arrow-down-s-line sidebar-menu-item-accordion ms-auto"></i>
                     </a>
                     <ul class="sidebar-dropdown-menu">
                         <li class="sidebar-dropdown-menu-item">
-                            <a href="views/crear.jsp">
-                                Crear
+                            <a href="#">
+                                Shop
                             </a>
                         </li>
                         <li class="sidebar-dropdown-menu-item">
-                            <a href="views/listar.jsp">
-                                Listar
+                            <a href="#">
+                                Checkout
                             </a>
                         </li>
                         <li class="sidebar-dropdown-menu-item">
-                            <a href="views/editar.jsp">
-                                Editar
+                            <a href="#">
+                                Details
                             </a>
                         </li>
                         <li class="sidebar-dropdown-menu-item">
-                            <a href="views/eliminar.jsp">
-                                Eliminar
+                            <a href="#">
+                                Wishlist
                             </a>
                         </li>
                     </ul>

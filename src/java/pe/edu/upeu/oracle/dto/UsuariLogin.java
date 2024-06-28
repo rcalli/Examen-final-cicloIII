@@ -16,7 +16,6 @@ public class UsuariLogin {
     private int idusuario;
     private String username;
     private String rol;
-    private String sexo;
     private String nombrep;
     private String url;
     private String icono;

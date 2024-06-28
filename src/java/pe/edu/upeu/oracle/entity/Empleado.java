@@ -17,5 +17,4 @@ public class Empleado {
     private String apellidos;
     private String correo;
     private String telefono;
-    private String sexo;
 }
